@@ -53,20 +53,23 @@ def calc_till_paid(row):
 
     # leftover debt functions
     # need a simulate function where itll render next months totals as if i paid this month an amount ill use as an arg,but not save the totals
-    # need an actual function where a month has passed and i need it to update the totals
+    #     use yield to mget the next month and wait in case i want to simulate the month after.
+    #     make it say "after x months, this debt will look like {stats}"
+
 
     # bills functions...
     # need to total the bills. sum method.
     # if recurring, add a bool for future simulate function
-    # update function as well
+
+    # need an actual function where a month has passed and i need it to update the totals( debts and bills func)
 
     # income functions...
     # need to total,
-    # thats about it..
+    # thats about it for now..
 
     # total functions..
     # need to show all totals.
-    # net loss / net gain
+    # net loss / net gain per month(per year?)
     # how much i would need to make to sustain. add an overload in case i want to simulate groceries or other stuff.
     # add edit delete for all
 
